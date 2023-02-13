@@ -84,7 +84,6 @@ class InvalidMetadataError(Exception):
 
 
 class Metadata(UserDict):
-
     # Minimum information required for the Metadata dict to be valid
     required_keys = {"taskmanager_id", "state", "generation_id", "generation_time", "missed_update_count"}
 
@@ -130,7 +129,6 @@ class Metadata(UserDict):
 
 
 class Header(UserDict):
-
     # Minimum information required for the Header dict to be valid
     required_keys = {
         "taskmanager_id",

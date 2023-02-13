@@ -9,7 +9,6 @@ from decisionengine.framework.modules.logging_configDict import DELOGGER_CHANNEL
 
 
 class DataSource(metaclass=abc.ABCMeta):  # pragma: no cover
-
     #: Name of the taskmanager table
     taskmanager_table = "taskmanager"
 

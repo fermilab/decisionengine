@@ -54,7 +54,6 @@ class DataSpaceExistsError(Exception):
 
 
 class DataSourceLoader(metaclass=ScopedSingleton):
-
     _ds = None
 
     @staticmethod
